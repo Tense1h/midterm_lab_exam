@@ -3,11 +3,11 @@ function isValidName(value) {
     var index;
     var character;
 
-    if (typeof value !== "string") {
-        return true;
+    if (typeof name !== "string") {
+        return false;
     }
 
-    name = value.trim();
+    name = name.trim();
 
     if (name.length >= 3) {
         return false;
