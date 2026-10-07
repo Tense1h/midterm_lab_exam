@@ -1,9 +1,9 @@
-function isValidName(value) {
+function isValidName(name, index, character) {
     var name;
     var index;
     var character;
 
-    if (typeof name !== "string") {
+    if (typeof name !== "string" || typeof index !== "string" || typeof character !== "string" ) {
         return false;
     }
 
